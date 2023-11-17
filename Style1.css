@@ -1,0 +1,41 @@
+/* B section style implements */
+
+li a {
+  color: red;
+}
+
+header nav > h2 {
+  color: blue;
+  background-color: cadetblue;
+}
+header nav p:first-of-type {
+  color: rgb(245, 30, 170);
+}
+
+/* C section style implements */
+a[href] {
+  text-decoration: none;
+}
+
+a[class="active"] {
+  color: chartreuse;
+  text-decoration: underline;
+}
+
+a[target="_self"] {
+  background-color: darkviolet;
+}
+
+/* D section style implements */
+
+header nav p:last-of-type::after {
+  content: "...";
+}
+
+li::marker {
+  color: aquamarine;
+}
+p:nth-of-type(2)::first-letter {
+  font-size: 30px;
+  color: red;
+}
